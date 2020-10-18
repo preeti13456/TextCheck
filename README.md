@@ -9,3 +9,5 @@ Please keep in mind that this extension is still in very early devlopment, and i
 
 **Contact:** Press "Contact the Devloper" on the Chrome Web Store page (linked above).
 
+**Current version:** 1.0
+
