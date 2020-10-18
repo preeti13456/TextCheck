@@ -11,5 +11,5 @@ Please keep in mind that this extension is still in very early devlopment, and i
 
 **Current version:** 1.0 
 
-**Updates:** 1.1 is pending. It will feature a nicer background and font.
+**Updates:** 1.1 has just been accepted. It features a nicer background and font.
 
