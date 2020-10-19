@@ -11,5 +11,5 @@ Please keep in mind that this extension is still in very early devlopment, and i
 
 **Current version:** 1.0 
 
-**Updates:** 1.1 has just been accepted. It features a nicer background and font.
+**Updates:** 1.1 has just been accepted. It features a nicer background and font. Images of the new extension are still being updated to the store. If you have sny feature requests, or other directions this project should travel in, please email me from the Chrome Webstore (see contact section of this README), or just create a feature request under issues.
 
