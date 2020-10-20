@@ -15,5 +15,46 @@
       },
       "description" : "Opens hello.html"
     }
-  }
+  },
+  "offline_enabled": true,
+  "omnibox": {
+    "keyword": "aString"
+  },
+  "optional_permissions": ["tabs"],
+  "options_page": "hello.html",
+  "options_ui": {
+    "chrome_style": true,
+    "page": "hello.html"
+  },
+
+
+    "permissions": [
+        "storage"
+    ]
+}
+
+//  Usage:
+
+//  PERSISTENT Storage - Globally
+//  Save data to storage across their browsers...
+
+chrome.storage.sync.set({ "yourBody": "myBody" }, function(){
+    //  A data saved callback omg so fancy
+});
+
+chrome.storage.sync.get(/* String or Array */["yourBody"], function(items){
+    //  items = [ { "yourBody": "myBody" } ]
+});
+
+//  LOCAL Storage
+
+// Save data to storage locally, in just this browser...
+
+chrome.storage.local.set({ "phasersTo": "awesome" }, function(){
+    //  Data's been saved boys and girls, go on home
+});
+
+chrome.storage.local.get(/* String or Array */["phasersTo"], function(items){
+    //  items = [ { "phasersTo": "awesome" } ]
+});
 }
